@@ -68,11 +68,40 @@
   font-size: 1.3rem;
 }
 
-/* Plants Section style
+/* Plants Section style */
 .plants {
   text-align: center;
+  margin-top: 120px;
 }
 .plants > h3 {
   font-size: 3.2rem;
   font-weight: 800;
-} */
+}
+.plants p {
+  font-size: 1.35rem;
+}
+.cards {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.card > p {
+  font-size: 1.35rem;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.card > H6 {
+  font-size: 1.35rem;
+  font-weight: 800;
+  margin-top: 5px;
+}
+button {
+  width: 270px;
+  height: 50px;
+  background-color: #E95A08;
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-top: 20px;
+}
