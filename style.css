@@ -1,0 +1,78 @@
+/* Google Fonts Link */
+.noto-serif {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* Shared Style */
+.dark-1 {
+  color: black;
+}
+/* .dark-2 {
+  color: ;
+} */
+.dark-3 {
+  color: #8987A1;
+}
+.white-1 {
+  color: white;
+}
+.color-1 {
+  color: #E95A08;
+}
+.flex {
+  display: flex;
+}
+.space-between {
+  justify-content: space-between;
+}
+.align-items-center {
+  align-items: center;
+}
+.max-width {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* Navbar */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.items > ul {
+    display: flex;
+    gap: 100px;
+}
+.items > a {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+/* banner section style */
+.banner {
+  margin-top: 120px;
+}
+.descriptions > h2 {
+  font-size: 4rem;
+  font-weight: 800;
+}
+.descriptions > p {
+  font-size: 1.3rem;
+}
+
+/* Plants Section style
+.plants {
+  text-align: center;
+}
+.plants > h3 {
+  font-size: 3.2rem;
+  font-weight: 800;
+} */
