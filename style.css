@@ -86,17 +86,17 @@
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
 }
-.card > p {
+.card-p {
   font-size: 1.35rem;
   font-weight: 600;
   margin-top: 20px;
 }
-.card > H6 {
+.card-h6 {
   font-size: 1.35rem;
   font-weight: 800;
   margin-top: 5px;
 }
-button {
+.btn-cart {
   width: 270px;
   height: 50px;
   background-color: #E95A08;
