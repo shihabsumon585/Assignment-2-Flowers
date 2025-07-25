@@ -40,21 +40,29 @@
   max-width: 1440px;
   width: 100%;
 }
-
+button {
+  border: none;
+}
 /* Navbar */
 .nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+}
+.cart {
+  display: flex;
 }
 .items > ul {
     display: flex;
     gap: 100px;
+    list-style: none;
 }
-.items > a {
-  font-size: 1.25rem;
-  font-weight: 500;
+.link {
+  text-decoration: none;
+  color: #8987A1;
+}
+#cart-56 {
+  color: black;
 }
 
 /* banner section style */
@@ -79,8 +87,10 @@
   font-size: 3.2rem;
   font-weight: 800;
 }
-.plants p {
+.plants-description {
   font-size: 1.35rem;
+  width: 820px;
+  margin: 0 auto;
 }
 .cards {
   margin-top: 50px;
@@ -114,7 +124,7 @@
   gap: 80px;
 }
 .lover-content {
-  margin-top: 50px;
+  margin-top: 0px;
   max-width: 45%;
 }
 .lover-desciption {
@@ -124,11 +134,14 @@
   margin-top: 25px;
   margin-left: 25px;
 }
+.shop-img-badge {
+  width: 600px;
+}
 .badge {
-  transform: scale(55%);
+  transform: scale(30%);
   position: relative;
-  top: -850px;
-  left: 210px;
+  top: -1100px;
+  left: -10px;
 }
 .lover-title {
   /* font-family: noto-serif; */
@@ -159,6 +172,8 @@
   color: white;
   font-family: "Noto Serif", serif;
   margin-bottom: 20px;
+  text-align: center;
+  margin: 0 auto;
 }
 #input {
   padding: 10px 270px 10px 15px;
@@ -210,14 +225,17 @@
 .latest-deals-title {
   font-size: 3.1rem;
   font-weight: 800;
+  text-align: center;
 }
 .latest-deals-description {
   font-size: 1.35rem;
   margin-top: 10px;
   margin-bottom: 100px;
   margin: 0 auto;
-  margin-top: 50px;
+  margin-top: 0px;
   margin-bottom: 60px;
+  text-align: center;
+  width: 800px;
 }
 .latest-deals-img {
   gap: 30px;
@@ -290,8 +308,17 @@
     gap: 30px;
     width: 100%;
     overflow: hidden;
-    .items > ul {
-      gap: 0;
-    }
+  }
+  .items > ul {
+    margin: none;
+  }
+  .descriptions > p {
+  margin: none;
+  }
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .btn-cart {
+    right: -200px;
   }
 }
