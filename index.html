@@ -19,7 +19,7 @@
     <!-- Font Awesome Icon -->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
+<body class="smmax-width">
     <header class="max-width">
         <nav class="nav">
             <div>
@@ -27,17 +27,17 @@
             </div>
             <div class="items">
                 <ul>
-                    <li class="item"><a href="" class="link font-bold
+                    <li class="item"><a href="" class="link smhide font-bold
 ">Home</a></li>
-                    <li class="item"><a href="" class="link dark-3">Shop</a></li>
-                    <li class="item"><a href="" class="link dark-3">About Us</a></li>
+                    <li class="item"><a href="" class="link smhide dark-3">Shop</a></li>
+                    <li class="item"><a href="" class="link smhide dark-3">About Us</a></li>
                     <div class="item cart">
                         <a href="" class="link"><i class="fa-solid fa-cart-shopping"></i> Cart ($56)</a>
                     </div>
                 </ul>
             </div>
         </nav>
-        <div class="banner flex space-between align-items-center">
+        <div class="banner space-between align-items-center">
             <div class="descriptions">
                 <h2>ALWAYS <span class="noto-serif color-1">FRESH FLOWERS</span></h2>
                 <p class="dark-3 inter">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
@@ -45,7 +45,7 @@
             <img src="assets/hero-flower.png" alt="Beutiful Flowers">
         </div>
     </header>
-    <main class="inter">
+    <main class="inter hide">
         <section class="plants max-width">
             <h3 class="noto-serif"><span class="inter color-1">Our</span> Plants</h3>
             <p class="dark-3">Indulge your senses with the beauty and fragrance of our fresh flower shop. From <br> classic roses to exotic blooms, we offer a wide variety of fresh.</p>
@@ -116,6 +116,24 @@
                 </div>
             </div>
         </section>
+        <section class="latest-deals-section max-width">
+            <h5 class="latest-deals-title noto-serif text-center mt-12"><span class="color-1">Latest</span> Deals</h5>
+            <p class="dark-3 latest-deals-description text-center text-2xl w-[850px] content-center">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+            <div class="latest-deals-img white-1 noto-serif">
+                <div class="img-container-bloom" id="bloom">
+                    <h6 class="text-2xl font-extrabold">60% Off I Bloom Plant</h6>
+                    <a href="#" class="text-xl font-extrabold underline">Shop Now</a>
+                </div>
+                <div class="img-container-zabo" id="zabo">
+                    <h6 class="text-5xl font-extrabold">25% Off I Zabo Plant</h6>
+                    <a href="#" class="text-xl font-extrabold underline">Shop Now</a>
+                </div>
+                <div class="img-container-ana" id="ana">
+                    <h6 class="text-2xl font-extrabold">30% Off I Ana Plant</h6>
+                    <a href="#" class="text-xl font-extrabold underline">Shop Now</a>
+                </div>
+            </div>
+        </section>
         <section class="join">
             <h2 class="join-title">Join the colorful Bunch</h2>
             <div class="placeholder-subscribe flex align-items-center">
@@ -123,11 +141,8 @@
                 <button class="btn-subscribe">Subscribe</button>
             </div>
         </section>
-        <section class="latest-deals-section">
-            <h5 class="latest-deals-title noto-serif"><span class="latest-style">Latest</span>Deals</h5>
-        </section>
     </main>
-    <footer class="max-width footer">
+    <footer class="max-width footer hide">
         <div>
             <img src="assets/logo.png" alt="">
             <p class="dark-3 foooter-description">Indulge your senses with the beauty and fragrance of our fresh flower shop. </p>
