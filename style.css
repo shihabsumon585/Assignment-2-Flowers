@@ -36,6 +36,10 @@
   max-width: 1140px;
   margin: 0 auto;
 }
+.full-screen {
+  max-width: 1440px;
+  width: 100%;
+}
 
 /* Navbar */
 .nav {
@@ -104,6 +108,9 @@
 }
 
 /* Plants Lover Section Style */
+/* .plants {
+  height: 00px;
+} */
 .plants-lover {
   margin-top: 150px;
   gap: 80px;
@@ -130,3 +137,72 @@
   font-size: 3.2rem;
   font-weight: 800;
 }
+.plants-lover {
+  max-height: 700px;
+}
+
+/* Join Section Style */
+.join {
+  background-image: url(assets/news-letter-bg.png);
+  height: 530px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column ;
+  /* max-height: 500px; */
+}
+.join-title {
+  font-size: 3.1rem;
+  font-weight: 800;
+  color: white;
+  font-family: "Noto Serif", serif;
+  margin-bottom: 20px;
+}
+#input {
+  padding: 10px 270px 10px 15px;
+  background-color: white;
+}
+.btn-subscribe {
+  padding: 10px 65px;
+  color: white;
+  background-color: #E95A08;
+}
+
+/* Footer Style */
+.footer {
+  margin-top: 70px;
+  margin-bottom: 300px;
+  /* max-height: 250px; */
+  gap: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 1140px;
+  display: flex;
+  justify-content: space-between;
+}
+.foooter-description {
+  margin-top: 20px;
+  font-size: 1.35rem;
+  width: 300px;
+}
+.footer-navs {
+  gap: 80px;
+  font-size: 1.25rem;
+}
+.footer-nav {
+  margin-bottom: 25px;
+}
+.footer-icon {
+  width: 36px;
+  height: 36px;
+}
+.footer-icons {
+  display: flex;
+  gap: 40px;
+}
+
+/* challenges style section */
